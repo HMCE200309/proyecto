@@ -6,6 +6,7 @@ $(".btnCargarDatos").click(function(){
     datos.append("edit", edit);
     console.log("Datos id",edit);
 
+    
     $.ajax({
         url: "ajax/ajaxClientes.php",
         method: "POST",
