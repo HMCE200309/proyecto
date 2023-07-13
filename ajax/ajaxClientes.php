@@ -20,6 +20,6 @@ if (isset($_POST['idClientes'])){
     if($POST['edit']=='edit'){
         $objAjaxClente->cargarDatos();
     }else{
-        $objAjaxClente-<eliminarDatos();
+       # $objAjaxClente-<eliminarDatos();
     }
 }

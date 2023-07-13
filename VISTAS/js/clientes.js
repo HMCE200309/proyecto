@@ -16,11 +16,11 @@ $(".btnCargarDatos").click(function(){
         success: function(respuesta){
             $('#modificar_cedula').val(respuesta['cedula'])
             $('#modificar_nombre').val(respuesta['nombre'])
-            $('#modificar_apellido').val(respuesta['apellidos'])
+            $('#modificar_apellido').val(respuesta['apellido'])
             $('#modificar_direccion').val(respuesta['direccion'])
             $('#modificar_telefono').val(respuesta['telefono'])
-            $('#modificar_email').val(respuesta['email'])
-            console.log("Datos json",respuesta)
+            $('#modificar_correo').val(respuesta['correo'])
+            
         }
 
     });
