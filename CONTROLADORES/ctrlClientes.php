@@ -52,7 +52,7 @@ class ControladorClientes{
 //funcion para cargar datos de  cliente
     public static function ctrlCargarClientes($parametro,$id){
     $tabla = "cliente";
-    $datosCliente = ModeloCliente::mdlCargarClientes($tabla, $parametro, $id);
+    $datosCliente = ModeloCliente::mdlCargarClientes($parametro, $id);
         return $datosCliente;
     }
 }
